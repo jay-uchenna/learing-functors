@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		19CE9501279945FB0096F235 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 19CE9500279945FB0096F235 /* main.cpp */; };
+		19CE9509279963060096F235 /* odd_or_even.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 19CE9507279963060096F235 /* odd_or_even.cpp */; };
+		19CE950C279963240096F235 /* odd.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 19CE950A279963240096F235 /* odd.cpp */; };
+		19CE950F2799633B0096F235 /* even.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 19CE950D2799633B0096F235 /* even.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,12 @@
 /* Begin PBXFileReference section */
 		19CE94FD279945FB0096F235 /* learing functors */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "learing functors"; sourceTree = BUILT_PRODUCTS_DIR; };
 		19CE9500279945FB0096F235 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		19CE9507279963060096F235 /* odd_or_even.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = odd_or_even.cpp; sourceTree = "<group>"; };
+		19CE9508279963060096F235 /* odd_or_even.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = odd_or_even.hpp; sourceTree = "<group>"; };
+		19CE950A279963240096F235 /* odd.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = odd.cpp; sourceTree = "<group>"; };
+		19CE950B279963240096F235 /* odd.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = odd.hpp; sourceTree = "<group>"; };
+		19CE950D2799633B0096F235 /* even.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = even.cpp; sourceTree = "<group>"; };
+		19CE950E2799633B0096F235 /* even.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = even.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +67,12 @@
 			isa = PBXGroup;
 			children = (
 				19CE9500279945FB0096F235 /* main.cpp */,
+				19CE950D2799633B0096F235 /* even.cpp */,
+				19CE950E2799633B0096F235 /* even.hpp */,
+				19CE950A279963240096F235 /* odd.cpp */,
+				19CE950B279963240096F235 /* odd.hpp */,
+				19CE9507279963060096F235 /* odd_or_even.cpp */,
+				19CE9508279963060096F235 /* odd_or_even.hpp */,
 			);
 			path = "learing functors";
 			sourceTree = "<group>";
@@ -119,7 +134,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19CE950C279963240096F235 /* odd.cpp in Sources */,
+				19CE9509279963060096F235 /* odd_or_even.cpp in Sources */,
 				19CE9501279945FB0096F235 /* main.cpp in Sources */,
+				19CE950F2799633B0096F235 /* even.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
